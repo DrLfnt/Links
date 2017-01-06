@@ -58,7 +58,7 @@
 					</button>
 					<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn">
 						<a class="button-ripple-link" href="mailto:marcela.juarez@gtb.com; oliver.martinez@gtb.com; eduardo.angeles@gtb.com?cc=fernanda.desantiago@gtb.com; lorena.ramirez@gtb.com; osvaldo.barrera@gtb.com&amp;bcc=alejandro.morales@gtb.com&amp;subject=Solicitud%20de%20permiso&amp;body=Por%20medio%20del%20presente%20solicito%20permiso%20para%3A%0A..."><li class="mdl-menu__item">Permisos</li></a>
-						<a class="button-ripple-link" href="https://www.changepassword.ford.com/signin.aspx"><li class="mdl-menu__item">Contraseñas</li></a>
+						<a class="button-ripple-link" href="https://www.changepassword.ford.com/signin.aspx"><li class="mdl-menu__item">Contraseña Ford</li></a>
 					</ul>
 				</div>
 			</header>
@@ -88,11 +88,12 @@
 				</dialog>
 			</nav>
 		</div>
+
 		<main class="mdl-layout__content mdl-color--grey-100">
 			<div class="mdl-grid pubhub-content">
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FMX</h2>
 						</div>
@@ -100,16 +101,43 @@
 							Ford México
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Live</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">MGMT</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">AEM</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FMX" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FMX">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FMX" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FMX">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FMX" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FMX">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul>
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">LMX2015</h2>
 						</div>
@@ -117,31 +145,43 @@
 							Lincoln México
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-LMX2015" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-LMX2015">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-LMX2015" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-LMX2015">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-LMX2015" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-LMX2015">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
-						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
-							<h2 class="mdl-card__title-text">FSO</h2>
-						</div>
-						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-							Ford se ocupa
-						</div>
-						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
-						</div>
-					</div>
-					<div class="pubhub-separator mdl-cell--1-col"></div>
-				</div>
-
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">MCMX</h2>
 						</div>
@@ -149,15 +189,131 @@
 							Motorcraft México
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-MCMX" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-MCMX">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-MCMX" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-MCMX">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-MCMX" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-MCMX">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
+							<h2 class="mdl-card__title-text">FSO</h2>
+						</div>
+						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
+							Ford se ocupa
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FSO" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FSO">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FSO" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FSO">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FSO" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FSO">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
+						</div>
+					</div>
+					<div class="pubhub-separator mdl-cell--1-col"></div>
+				</div>
+
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
+							<h2 class="mdl-card__title-text">FSOEN</h2>
+						</div>
+						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
+							Ford se ocupa (Inglés)
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FSOEN" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FSOEN">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FSOEN" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FSOEN">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FSOEN" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FSOEN">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
+						</div>
+					</div>
+					<div class="pubhub-separator mdl-cell--1-col"></div>
+				</div>
+
+				<div class="pubhub-cards mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FBR</h2>
 						</div>
@@ -165,31 +321,87 @@
 							Ford Brasil
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FBR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FBR">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FBR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FBR">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FBR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FBR">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul>
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FBRT</h2>
 						</div>
 						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-							Ford Brasil Trucks
+							Ford Brasil Tucks
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FBRT" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FBRT">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FBRT" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FBRT">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FBRT" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FBRT">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FCO</h2>
 						</div>
@@ -197,15 +409,43 @@
 							Ford Colombia
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FCO" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FCO">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FCO" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FCO">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FCO" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FCO">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FVE</h2>
 						</div>
@@ -213,63 +453,43 @@
 							Ford Venezuela
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FVE" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FVE">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FVE" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FVE">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FVE" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FVE">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
-						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
-							<h2 class="mdl-card__title-text">FAR</h2>
-						</div>
-						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-							Ford Argentina
-						</div>
-						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
-						</div>
-					</div>
-					<div class="pubhub-separator mdl-cell--1-col"></div>
-				</div>
-
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
-						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
-							<h2 class="mdl-card__title-text">FPE</h2>
-						</div>
-						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-							Ford Perú
-						</div>
-						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
-						</div>
-					</div>
-					<div class="pubhub-separator mdl-cell--1-col"></div>
-				</div>
-
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
-						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
-							<h2 class="mdl-card__title-text">FCH</h2>
-						</div>
-						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-							Ford Chile
-						</div>
-						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
-						</div>
-					</div>
-					<div class="pubhub-separator mdl-cell--1-col"></div>
-				</div>
-
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FEC</h2>
 						</div>
@@ -277,15 +497,175 @@
 							Ford Ecuador
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FEC" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FEC">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FEC" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FEC">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FEC" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FEC">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
+							<h2 class="mdl-card__title-text">FAR</h2>
+						</div>
+						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
+							Ford Argentina
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FAR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FAR">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FAR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FAR">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FAR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FAR">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="pubhub-separator mdl-cell--1-col"></div>
+				</div>
+
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
+							<h2 class="mdl-card__title-text">FPE</h2>
+						</div>
+						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
+							Ford Perú
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FPE" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FPE">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FPE" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FPE">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FPE" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FPE">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
+						</div>
+					</div>
+					<div class="pubhub-separator mdl-cell--1-col"></div>
+				</div>
+
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
+							<h2 class="mdl-card__title-text">FCH</h2>
+						</div>
+						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
+							Ford Chile
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FCH" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FCH">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FCH" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FCH">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FCH" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FCH">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
+						</div>
+					</div>
+					<div class="pubhub-separator mdl-cell--1-col"></div>
+				</div>
+
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FMCSA</h2>
 						</div>
@@ -293,15 +673,43 @@
 							Ford Sudáfrica
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FMCSA" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FMCSA">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FMCSA" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FMCSA">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FMCSA" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FMCSA">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FSSA</h2>
 						</div>
@@ -309,91 +717,132 @@
 							Ford África
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-FSSA" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-FSSA">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-FSSA" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-FSSA">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-FSSA" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FSSA">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">LME</h2>
 						</div>
 						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-							Lincoln Middle East (English)
+							Lincoln Middle East (Inglés)
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-LME" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-LME">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-LME" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-LME">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-LME" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-LME">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-					<div class="pubhub-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">LMEAR</h2>
 						</div>
 						<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-							Lincoln Middle East (Arabic)
+							Lincoln Middle East (Árabe)
 						</div>
 						<div class="mdl-card__actions mdl-card--border">
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Production</a>
-							<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Management</a>
+							<span class="live-dfy-aem-menu">
+								Live
+							</span>
+							<button id="live-LMEAR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="live-LMEAR">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<span class="live-dfy-aem-menu">
+								DFY
+							</span>
+							<button id="mgmt-LMEAR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="mgmt-LMEAR">
+								<li class="mdl-menu__item teal"><a href="#">Desktop</a></li>
+								<li class="mdl-menu__item teal"><a href="#">Touch</a></li>
+							</ul>
+							<!-- <span class="live-dfy-aem-menu">
+								AEM
+							</span>
+							<button id="aem-LMEAR" class="mdl-button mdl-js-button mdl-button--icon">
+								<i class="material-icons teal">more_vert</i>
+							</button>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-LMEAR">
+								<li class="mdl-menu__item teal"><a href="#">W.P.</a></li>
+								<li class="mdl-menu__item teal"><a href="#">C.A.</a></li>
+							</ul> -->
 						</div>
 					</div>
 					<div class="pubhub-separator mdl-cell--1-col"></div>
 				</div>
 
-				<button id="demo-menu-lower-left" class="mdl-button mdl-js-button mdl-button--icon">
-					<i class="material-icons">more_vert</i>
-				</button>
-				<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-left">
-					<li class="mdl-menu__item">Some Action</li>
-					<li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
-					<li disabled class="mdl-menu__item">Disabled Action</li>
-					<li class="mdl-menu__item">Yet Another Action</li>
-				</ul>
-
-				<!-- Right aligned menu below button -->
-				<button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
-					<i class="material-icons">more_vert</i>
-				</button>
-				<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
-					<li class="mdl-menu__item">Some Action</li>
-					<li class="mdl-menu__item">Another Action</li>
-					<li disabled class="mdl-menu__item">Disabled Action</li>
-					<li class="mdl-menu__item">Yet Another Action</li>
-				</ul>
-
-				<button id="demo-menu-top-left" class="mdl-button mdl-js-button mdl-button--icon">
-					<i class="material-icons">more_vert</i>
-				</button>
-				<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-menu-top-left">
-					<li class="mdl-menu__item">Some Action</li>
-					<li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
-					<li disabled class="mdl-menu__item">Disabled Action</li>
-					<li class="mdl-menu__item">Yet Another Action</li>
-				</ul>
-
-				<!-- Right aligned menu below button -->
-				<button id="demo-menu-top-right" class="mdl-button mdl-js-button mdl-button--icon">
-					<i class="material-icons">more_vert</i>
-				</button>
-				<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-top-right">
-					<li class="mdl-menu__item">Some Action</li>
-					<li class="mdl-menu__item">Another Action</li>
-					<li disabled class="mdl-menu__item">Disabled Action</li>
-					<li class="mdl-menu__item">Yet Another Action</li>
-				</ul>
-
 			</div>
-
-
 		</main>
+
 	</div>
 	<a href="http://pubhub-latam.net/AEM-Training/" target="_blank" id="trainingAEM" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">Training AEM</a>
 	<a href="https://www.youtube.com/user/PubHubLATAM/videos?shelf_id=0&view=0&sort=dd" target="_blank" id="trainingDFY" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">Training DFY</a>

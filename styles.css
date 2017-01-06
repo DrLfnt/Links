@@ -80,6 +80,13 @@ dialog::backdrop {
   .button-ripple-link {
     text-decoration: none;
   }
+  .live-dfy-aem-menu {
+    color: teal;
+    padding-left: 10px;
+  }
+  .teal {
+    color: teal;
+  }
   #trainingAEM {
     position: fixed;
     display: block;
