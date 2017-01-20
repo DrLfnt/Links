@@ -1,6 +1,26 @@
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
 dialog::backdrop {
     position: fixed;
     top: 0;
@@ -12,7 +32,7 @@ dialog::backdrop {
   .mdl-dialog {
     border: none;
     box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
-    width: 50%;
+    width: 80%;
   }
   .mdl-dialog__title {
     padding: 24px 24px 0;
@@ -52,6 +72,18 @@ dialog::backdrop {
   .mdl-dialog__content {
     padding: 20px 24px 24px 24px;
     color: rgba(0,0,0, 0.54);
+  }
+  tr{
+    width: 100%;
+  }
+  .mdl-data-table {
+    position: relative;
+    border: 0 solid rgba(0,0,0,.12);
+    border-collapse: collapse;
+    white-space: nowrap;
+    font-size: 16px;
+    background-color: #fff;
+    max-width: 100%;
   }
   .pubhub-drawer-header {
     height: 130px;
@@ -104,6 +136,15 @@ dialog::backdrop {
     margin-right: 40px;
     margin-bottom: 40px;
     z-index: 900;
+  }
+  .pubhubitas-dialog {
+    background-color: #00BCD4;
+  }
+  .pubhubitas-dialog__link {
+    color: rgba(0,0,0,.75);
+  }
+  .pubhubitas-dialog__link:hover {
+    color: rgba(255,255,255,.75);
   }
   .material-icons.wifi {
     color: #26A69A;

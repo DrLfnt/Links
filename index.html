@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
+	<meta name="robots" content="noindex, nofollow">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="PubHub Latam 2017">
 	<meta name="theme-color" content="#00897B" />
@@ -53,7 +54,8 @@
 					<i class="material-icons">more_vert</i>
 				</button>
 				<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
-					<a class="button-ripple-link" href="#"><li class="mdl-menu__item">PubHubitas</li></a>
+					<a class="button-ripple-link" href="http://pubhub-latam.net/" target="_blank"><li class="mdl-menu__item">Blog</li></a>
+					
 					<a class="button-ripple-link" href="http://lynda.jwt.com/" target="_blank"><li class="mdl-menu__item">Lynda</li></a>
 					<a class="button-ripple-link" href="http://tacmex.jwt.com/"><li class="mdl-menu__item" target="_blank">Time Sheet</li></a>
 					<a class="button-ripple-link" href="https://outlook.office365.com/owa/?realm=thebluehive.com" target="_blank"><li class="mdl-menu__item">Mail</li></a>
@@ -61,10 +63,40 @@
 					<a class="button-ripple-link" href="http://www.portalempleadoswpp.com/loginadmon.aspx" target="_blank"><li class="mdl-menu__item">Recibos de Nómina</li></a>
 				</ul>
 			</div>
+			<!-- Tabs -->
+			<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+				<a class="anchor" href="#anchorFMX">FMX</a>
+				<a class="anchor" href="#anchorFBR">FBR</a>
+				<a class="anchor" href="#anchorFAR">FAR</a>
+				<a class="anchor" href="#anchorLMX215">LMX2015</a>
+				<a class="anchor" href="#anchorMCMX">MCMX</a>
+				<a class="anchor" href="#anchorFSO">FSO</a>
+				<a class="anchor" href="#anchorFSOEN">FSOEN</a>
+				<a class="anchor" href="#anchorFBRT">FBRT</a>
+				<a class="anchor" href="#anchorFCO">FCO</a>
+				<a class="anchor" href="#anchorFVE">FVE</a>
+				<a class="anchor" href="#anchorFEC">FEC</a>
+				<a class="anchor" href="#anchorFPE">FPE</a>
+				<a class="anchor" href="#anchorFCH">FCH</a>
+				<a class="anchor" href="#anchorFMCSA">FMCSA</a>
+				<a class="anchor" href="#anchorFSSA">FSSA</a>
+				<a class="anchor" href="#anchorLME">LME</a>
+				<a class="anchor" href="#anchorLMEAR">LMEAR</a>
+			</div>
 		</header>
+		<style>
+			.anchor {
+				color: #fff;
+				display: block;
+				margin-right: 2em;
+				font-weight: 500;
+				line-height: 48px;
+				text-decoration: none;
+			}
+		</style>
 		<div class="pubhub-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
 			<header class="pubhub-drawer-header">
-				<img src="images/user.jpg" class="pubhub-avatar rotate">
+				<a href="http://pubhub-latam.net/links/"><img src="images/user.jpg" class="pubhub-avatar rotate"><span class="hidden">Links 2017</span></a>
 				<br />
 				<div class="pubhub-avatar-dropdown">
 					<span>
@@ -83,35 +115,256 @@
 			</header>
 			<nav class="pubhub-navigation mdl-navigation mdl-color--blue-grey-800">
 				<a class="mdl-navigation__link" href="https://www.brandauthorap.ford.com/libs/cq/core/content/welcome.html" target="_blank">AEM</a>
-				<a class="mdl-navigation__link" href="https://www.brandauthorap.ford.com/content/newVDM/nameplate.html?wcmmode=disabled&marketMakeID=26" target="_blank">NEW VDM</a>
+				<!--<a class="mdl-navigation__link" href="https://www.brandauthorap.ford.com/content/newVDM/nameplate.html?wcmmode=disabled&marketMakeID=26" target="_blank">NEW VDM</a>-->
+				<a class="mdl-navigation__link" href="https://fordlatam.marketing.adobe.com/target" target="_blank">Target</a>
 				<a class="mdl-navigation__link" href="https://wwwedumg4.dragonfly.ford.com/cas/login?service=https%3A%2F%2Fwwwedumg4.dragonfly.ford.com%2Fservlet%2FContentServer%3Fd%3D%26pagename%3DOpenMarket%2FXcelerate%2FUIFramework%2FLoginPage" target="_blank">DFY</a>
 				<a class="mdl-navigation__link" href="https://jira.thebluehive.com/" target="_blank">Jira</a>
 				<a class="mdl-navigation__link" href="https://coretech.service-now.com/selfservice/" target="_blank">IT</a>
 				<a class="mdl-navigation__link" href="http://pubhub-latam.net/assets/BrightcoveTestVideo.php" target="_blank">Validador Videos</a>
 				<a class="mdl-navigation__link" href="http://jsonlint.com/" target="_blank">Validador Json</a>
-				<a class="mdl-navigation__link" href="http://pubhub-latam.net/"><span class="" target="_blank">Blog</span></a>
+				<a class="mdl-navigation__link" href="http://pubhub-latam.net/assets/Documentos-Content-Associate.zip">Guías C.A.</a>
 				<div class="mdl-layout-spacer"></div>
-				<a class="mdl-navigation__link dialog-button" href="#">
-					Guías
-				</a>
-				<dialog id="guias" class="mdl-dialog">
-					<h3 class="mdl-dialog__title">Descargar Guías</h3>
-					<div class="mdl-dialog__content">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quaerat vitae consequatur aperiam assumenda dignissimos, minima iste temporibus quam. Cum maxime ad consequatur pariatur at tempore odio voluptas laudantium numquam?
-						</p>
-					</div>
-					<div class="mdl-dialog__actions">
-						<button type="button" class="mdl-button red">cerrar</button>
-					</div>
-				</dialog>
+				<a class="mdl-navigation__link dialog-button pubhubitas-dialog" href="#"><span class="pubhubitas-dialog__link" target="_blank">PubHubitas</span></a>
 			</nav>
 		</div>
 
+		<dialog id="pubhubitas" class="mdl-dialog">
+			<h3 class="mdl-dialog__title">Team</h3>
+			<div class="mdl-dialog__content">
+						<!-- Three Line List with secondary info and action -->
+						<style>
+						.team-list {
+							width: 100%;
+						}
+						</style>
+						<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+							<div class="mdl-tabs__tab-bar">
+								<a href="#managers" class="mdl-tabs__tab is-active">Managers</a>
+								<a href="#web-publishers" class="mdl-tabs__tab">Web Publishers</a>
+								<a href="#content-associate" class="mdl-tabs__tab">Content Associate</a>
+								<a href="#web-analyst" class="mdl-tabs__tab">Web Analyst</a>
+							</div>
+							<center>
+								<div class="mdl-tabs__panel is-active" id="managers">
+									<table class="mdl-data-table mdl-js-data-table">
+										<thead>
+											<tr>
+												<th class="mdl-data-table__cell--non-numeric">Nombre</th>
+												<th>Email</th>
+												<th>Extensión</th>
+												<th>Móvil</th>
+												<th>Cumpleaños</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Alejandro Morales</td>
+												<td><a href="mailto:alejandro.morales@gtb.com">alejandro.morales@gtb.com</a></td>
+												<td>3565</td>
+												<td><a href="tel:55 0000 0000" rel="nofollow">55 0000 0000</a></td>
+												<td>1 Enero</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Eduardo Ángeles</td>
+												<td><a href="mailto:eduardo.angeles@gtb.com">eduardo.angeles@gtb.com</a></td>
+												<td>3591</td>
+												<td><a href="tel:55 4589 9013" rel="nofollow">55 4589 9013</a></td>
+												<td>18 Marzo</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Fernanda De Santiago</td>
+												<td><a href="mailto:fernanda.desantiago@gtb.com">fernanda.desantiago@gtb.com</a></td>
+												<td>3582</td>
+												<td><a href="tel:55 9198 7719" rel="nofollow">55 9198 7719</a></td>
+												<td>18 Enero</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Lorena Ramírez</td>
+												<td><a href="mailto:lorena.ramirez@gtb.com">lorena.ramirez@gtb.com</a></td>
+												<td>3574</td>
+												<td><a href="tel:55 5408 1501" rel="nofollow">55 5408 1501</a></td>
+												<td>4 Mayo</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Marcela Juarez</td>
+												<td><a href="mailto:marcela.juarez@gtb.com">marcela.juarez@gtb.com</a></td>
+												<td>3575</td>
+												<td><a href="tel:55 2899 2492" rel="nofollow">55 2899 2492</a></td>
+												<td>22 Noviembre</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Oliver Martinez</td>
+												<td><a href="mailto:oliver.martinez@gtb.com">oliver.martinez@gtb.com</a></td>
+												<td>3594</td>
+												<td><a href="tel:55 1501 7801" rel="nofollow">55 1501 7801</a></td>
+												<td>23 Octubre</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Osvaldo Barrera</td>
+												<td><a href="mailto:osvaldo.barrera@gtb.com">osvaldo.barrera@gtb.com</a></td>
+												<td>3568</td>
+												<td><a href="tel:55 3045 3154" rel="nofollow">55 3045 3154</a></td>
+												<td>26 Diciembre</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="mdl-tabs__panel" id="web-publishers">
+									<table class="mdl-data-table mdl-js-data-table">
+										<thead>
+											<tr>
+												<th class="mdl-data-table__cell--non-numeric">Nombre</th>
+												<th>Email</th>
+												<th>Extensión</th>
+												<th>Cumpleaños</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Anabel Sosapavón</td>
+												<td><a href="mailto:anabel.sosapavon@gtb.com">anabel.sosapavon@gtb.com</a></td>
+												<td>3577</td>
+												<td>2 Julio</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Argenis Palacios</td>
+												<td><a href="mailto:argenis.palacios@gtb.com">argenis.palacios@gtb.com</a></td>
+												<td>3569</td>
+												<td>28 Agosto</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Azucena Sánchez</td>
+												<td><a href="mailto:azucena.sanchez@gtb.com">azucena.sanchez@gtb.com</a></td>
+												<td>3583</td>
+												<td>19 Marzo</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Cipriano Valerio</td>
+												<td><a href="mailto:cipriano.valerio@gtb.com">cipriano.valerio@gtb.com</a></td>
+												<td>3570</td>
+												<td>26 Noviembre</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Diego Bravo</td>
+												<td><a href="mailto:diego.bravo@gtb.com">diego.bravo@gtb.com</a></td>
+												<td>3573</td>
+												<td>18 Junio</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Edgar Galicia</td>
+												<td><a href="mailto:edgar.galicia@gtb.com">edgar.galicia@gtb.com</a></td>
+												<td>3538</td>
+												<td>30 Abril</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Germán Lira</td>
+												<td><a href="mailto:german.lira@gtb.com">german.lira@gtb.com</a></td>
+												<td>3581</td>
+												<td>2 Julio</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Óscar Cigarroa</td>
+												<td><a href="mailto:oscar.cigarroa@gtb.com">oscar.cigarroa@gtb.com</a></td>
+												<td>3597</td>
+												<td>25 Enero</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Rubén Canseco</td>
+												<td><a href="mailto:ruben.canseco@gtb.com">ruben.canseco@gtb.com</a></td>
+												<td>3576</td>
+												<td>6 Abril</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="mdl-tabs__panel" id="content-associate">
+									<table class="mdl-data-table mdl-js-data-table">
+										<thead>
+											<tr>
+												<th class="mdl-data-table__cell--non-numeric">Nombre</th>
+												<th>Email</th>
+												<th>Extensión</th>
+												<th>Cumpleaños</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Ailed Álvarez</td>
+												<td><a href="mailto:ailed.alvarez@gtb.com">ailed.alvarez@gtb.com</a></td>
+												<td>3587</td>
+												<td>5 Marzo</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Lucero Aguilar</td>
+												<td><a href="mailto:lucero.aguilar@gtb.com">lucero.aguilar@gtb.com</a></td>
+												<td>3524</td>
+												<td>11 Mayo</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Mariana Gallardo</td>
+												<td><a href="mailto:mariana.gallardo@gtb.com">mariana.gallardo@gtb.com</a></td>
+												<td>3595</td>
+												<td>10 Marzo</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Maritere Meza</td>
+												<td><a href="mailto:maritere.meza@gtb.com">maritere.meza@gtb.com</a></td>
+												<td>3596</td>
+												<td>12 Abril</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Óscar Sotelo</td>
+												<td><a href="mailto:oscar.sotelo@gtb.com">oscar.sotelo@gtb.com</a></td>
+												<td>3596</td>
+												<td>12 Abril</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Rafael Ramírez</td>
+												<td><a href="mailto:rafael.ramirez@gtb.com">rafael.ramirez@gtb.com</a></td>
+												<td>3580</td>
+												<td>6 Febrero</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="mdl-tabs__panel" id="web-analyst">
+									<table class="mdl-data-table mdl-js-data-table">
+										<thead>
+											<tr>
+												<th class="mdl-data-table__cell--non-numeric">Nombre</th>
+												<th>Email</th>
+												<th>Extensión</th>
+												<th>Cumpleaños</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Diana Maya</td>
+												<td><a href="mailto:diana.maya@gtb.com">diana.maya@gtb.com</a></td>
+												<td>3586</td>
+												<td>29 Octubre</td>
+											</tr>
+											<tr>
+												<td class="mdl-data-table__cell--non-numeric">Victor Sánchez</td>
+												<td><a href="mailto:victor.sanchez@gtb.com">victor.sanchez@gtb.com</a></td>
+												<td>3588</td>
+												<td>23 Octubre</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</center>
+						</div>
+			</div>
+			<div class="mdl-dialog__actions">
+				<button type="button" class="mdl-button red">cerrar</button>
+			</div>
+		</dialog>
+
 		<main class="mdl-layout__content mdl-color--grey-100">
 			<div class="mdl-grid pubhub-content">
-
 				<div class="pubhub-cards mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFMX"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FMX</h2>
@@ -149,7 +402,9 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FMX">
 								<a href="https://www.brandauthorap.ford.com/siteadmin#/content/ford/mx/es_mx"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="https://www.brandap.ford.com/content/ford/mx/es_mx/home.html"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="https://www.brandauthorap.ford.com/content/newVDM/nameplate.html?wcmmode=disabled&marketMakeID=26"><li class="mdl-menu__item teal">W.P. VDM</li></a>
+								<a href="https://www.brandauthorap.ford.com/content/ford/mx/es_mx/home.html?wcmmode=disabled"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="https://www.brandap.ford.com/content/ford/mx/es_mx/home.html"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul>
 						</div>
 					</div>
@@ -157,6 +412,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorLMX2015"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">LMX2015</h2>
@@ -193,7 +449,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-LMX2015">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -201,6 +457,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorMCMX"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">MCMX</h2>
@@ -235,7 +492,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-MCMX">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -243,6 +500,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFSO"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FSO</h2>
@@ -277,7 +535,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FSO">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -285,6 +543,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFSOEN"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FSOEN</h2>
@@ -319,7 +578,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FSOEN">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -327,6 +586,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFBR"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FBR</h2>
@@ -363,7 +623,9 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FBR">
 								<a href="https://www.brandauthorap.ford.com/siteadmin#/content/ford/br/pt_br"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="https://www.brandap.ford.com/content/ford/br/pt_br/home.html"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="https://www.brandauthorap.ford.com/content/newVDM/nameplate.html?wcmmode=disabled&marketMakeID=7"><li class="mdl-menu__item teal">W.P. VDM</li></a>
+								<a href="https://www.brandauthorap.ford.com/content/ford/br/pt_br/home.html?wcmmode=disabled"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="https://www.brandap.ford.com/content/ford/br/pt_br/home.html"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul>
 						</div>
 					</div>
@@ -371,6 +633,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFBRT"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FBRT</h2>
@@ -407,7 +670,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FBRT">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -415,6 +678,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFCO"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FCO</h2>
@@ -451,7 +715,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FCO">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -459,6 +723,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFVE"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FVE</h2>
@@ -495,7 +760,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FVE">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -503,6 +768,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFEC"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FEC</h2>
@@ -539,7 +805,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FEC">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -547,6 +813,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFAR"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FAR</h2>
@@ -583,7 +850,9 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FAR">
 								<a href="https://www.brandauthorap.ford.com/siteadmin#/content/ford/ar/es_ar"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="https://www.brandap.ford.com/content/ford/ar/es_ar/home.html"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="https://www.brandauthorap.ford.com/content/newVDM/nameplate.html?wcmmode=disabled&marketMakeID=10"><li class="mdl-menu__item teal">W.P. VDM</li></a>
+								<a href="https://www.brandauthorap.ford.com/content/ford/ar/es_ar/home.html?wcmmode=disabled"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="https://www.brandap.ford.com/content/ford/ar/es_ar/home.html"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul>
 						</div>
 					</div>
@@ -591,6 +860,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFPE"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FPE</h2>
@@ -627,7 +897,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FPE">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -635,6 +905,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFCH"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FCH</h2>
@@ -671,7 +942,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FCH">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -679,6 +950,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFMCSA"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FMCSA</h2>
@@ -717,7 +989,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FMCSA">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -725,6 +997,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorFSSA"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">FSSA</h2>
@@ -761,7 +1034,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-FSSA">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -769,6 +1042,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorLME"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">LME</h2>
@@ -805,7 +1079,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-LME">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -813,6 +1087,7 @@
 				</div>
 
 				<div class="pubhub-cards mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-grid mdl-grid--no-spacing">
+					<a name="anchorLMEAR"></a>
 					<div class="pubhub-updates mdl-card-wide mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
 						<div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
 							<h2 class="mdl-card__title-text">LMEAR</h2>
@@ -849,7 +1124,7 @@
 							</button>
 							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="aem-LMEAR">
 								<a href="#"><li class="mdl-menu__item teal">W.P.</li></a>
-								<a href="#"><li class="mdl-menu__item teal">C.A.</li></a>
+								<a href="#"><li class="mdl-menu__item teal">C.A. Origin</li></a>
 							</ul> -->
 						</div>
 					</div>
@@ -862,6 +1137,7 @@
 	</div>
 	<a href="http://pubhub-latam.net/AEM-Training/" target="_blank" id="trainingAEM" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">Training AEM</a>
 	<a href="https://www.youtube.com/user/PubHubLATAM/videos?shelf_id=0&view=0&sort=dd" target="_blank" id="trainingDFY" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">Training DFY</a>
+
 	<!-- Scripts -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.2/dialog-polyfill.min.js"></script>
 	<script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
@@ -869,7 +1145,7 @@
 		(function() {
 			'use strict';
 			var dialogButton = document.querySelector('.dialog-button');
-			var dialog = document.querySelector('#guias');
+			var dialog = document.querySelector('#pubhubitas');
 			if (! dialog.showModal) {
 				dialogPolyfill.registerDialog(dialog);
 			}
