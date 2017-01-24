@@ -21,6 +21,11 @@ html, body {
     display: none !important;
   }
 }
+.mdl-layout__title, .mdl-layout-title {
+  font-size: 1.25em;
+  letter-spacing: 0;
+  font-weight: 300;
+}
 dialog::backdrop {
     position: fixed;
     top: 0;
@@ -330,7 +335,6 @@ _:-ms-input-placeholder, :root .pubhub-gramdl {
 }
 .pubhub-updates .mdl-card__title {
   min-height: 200px;
-  background-image: url('images/dog.png');
   background-position: 90% 100%;
   background-repeat: no-repeat;
 }
