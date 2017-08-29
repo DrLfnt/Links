@@ -15,6 +15,7 @@
 	<meta name="msapplication-TileColor" content="#00897B" />
 	<meta name="msapplication-TileImage" content="assets/icons/icon.png" />
 	<title>PubHub Latam 2017</title>
+	<script src="assets/js/push.min.js"></script>
 	<link rel="apple-touch-icon-precomposed" href="assets/images/ios-desktop.png" />
 	<link rel="shortcut icon" href="assets/images/favicon.png" />
 	<link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon" />
@@ -2452,6 +2453,17 @@
 				b.close()
 			})
 		}();
+	</script>
+	<script>
+		Push.create("¡¡¡Hola PubHubita!!!", {
+			body: "No olvides llenar tu timesheet",
+			icon: 'assets/images/user.jpg',
+			timeout: 10000,
+			onClick: function () {
+				window.location="http://tacmex.jwt.com/";
+				this.close();
+			}
+		});
 	</script>
 </body>
 </html>
