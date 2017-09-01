@@ -2455,8 +2455,9 @@
 		}();
 	</script>
 	<script>
-		Push.create("¡¡¡Hola PubHubita!!!", {
-			body: "No olvides llenar tu timesheet",
+
+		Push.create("Hola PubHubita", {
+			body: "No olvides llenar tu timesheet (Firefox)",
 			icon: 'assets/images/user.jpg',
 			timeout: 10000,
 			onClick: function () {
@@ -2464,6 +2465,17 @@
 				this.close();
 			}
 		});
+		
+		Push.create("Hola PubHubita", {
+			body: "No olvides llenar tus tiempos en Jira",
+			icon: 'assets/images/user.jpg',
+			timeout: 10000,
+			onClick: function () {
+				window.location="https://jira.thebluehive.com/secure/TempoUserBoard!timesheet.jspa";
+				this.close();
+			}
+		});
+
 	</script>
 </body>
 </html>
